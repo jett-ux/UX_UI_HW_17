@@ -1,0 +1,56 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: auto;
+    padding-right: auto;
+    color: white;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    vertical-align: top;
+    align-items: center;
+}
+
+.heroImg {
+    padding: 25px;
+    left: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 500px;
+    flex: 50%;
+    padding: 50px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+button { 
+    width: 200px;
+    height: 50px;
+    color: black;
+    stroke: black;    
+    background-color: #C2E2FF;
+    border-radius: 50px;
+}
